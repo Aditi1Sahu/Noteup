@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(28, 30, 29);
+    color: wheat;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+label{
+    font-size: 2rem;
+}
+
+#title,#content, .savenote {
+    width: 400px;
+    height: 3rem;
+    background-color: rgb(35, 34, 34);
+    color: aliceblue;
+    border: 2px solid white;
+}
