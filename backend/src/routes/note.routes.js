@@ -6,5 +6,7 @@ const router=express.Router()
 
 router.post("/",authMiddleware,noteController.createNote)
 router.get("/",authMiddleware,noteController.getNotes)
+router.delete("/:id",authMiddleware,noteController.deleteNote)
+router.put("/:id",authMiddleware,noteController.updateNote)
 
 module.exports = router
